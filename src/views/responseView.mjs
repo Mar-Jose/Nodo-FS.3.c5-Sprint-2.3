@@ -12,4 +12,4 @@ export function renderizarSuperheroe(superheroe) {
 }
 export function renderizarListaSuperheroes(superheroes) {
     return superheroes.map(superheroe => renderizarSuperheroe(superheroe));                                     
-},,,
+}
