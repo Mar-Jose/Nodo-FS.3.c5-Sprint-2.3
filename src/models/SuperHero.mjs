@@ -15,4 +15,4 @@ const superheroSchema = new mongoose.Schema({
 
 const superHero = mongoose.model('SuperHero', superheroSchema,'Grupo-30');
 
-export default superHero
+export default superHero...
