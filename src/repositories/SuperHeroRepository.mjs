@@ -19,4 +19,4 @@ class SuperHeroRepository extends IRepository {
         return await superHero.find({ edad: { $gt: 30 }, planetaOrigen:"Tierra", $expr: {$gt:[{$size: "$poderes"}, 1]}});
     }
 }
-export default new SuperHeroRepository;
+export default new SuperHeroRepository;,,,
