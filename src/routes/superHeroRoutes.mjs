@@ -5,7 +5,6 @@ import {
     buscarSuperheroesPorAtributoController,
     obtenerSuperHeroesMayoresDe30Controller,
     
-    
 } from '../controllers/superHeroesController.mjs';
 
 const router= express.Router();
